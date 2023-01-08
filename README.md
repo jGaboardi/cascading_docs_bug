@@ -15,7 +15,7 @@ This repo serves as a starting point to figure out what's causing the cascading 
 
 ## Troubleshooting
 
-* There seems to have been a change between [`sphinx==5.0.2`](https://github.com/jGaboardi/cascading_refs_bug/docs_sphinx_5-0-2/_build/html/references.html) and [`sphinx==5.1.0`](https://github.com/jGaboardi/cascading_refs_bug/docs_sphinx_5-1-0/_build/html/references.html) that is causing the cascading reference entries, but I haven't been able isolate the reason.
+* There seems to have been a change between `sphinx==5.0.2` ([html](https://github.com/jGaboardi/cascading_refs_bug/docs_sphinx_5-0-2/_build/html/references.html), [image]()) and `sphinx==5.1.0` ([html](https://github.com/jGaboardi/cascading_refs_bug/docs_sphinx_5-1-0/_build/html/references.html), [image]()) that is causing the cascading reference entries, but I haven't been able isolate the reason.
 * I have implemented a workaround (see [`pysal/spaghetti#688`](https://github.com/pysal/spaghetti/pull/688)), but it is not a solution for the problem.
 
 ## Linked Issues and PRs
@@ -40,7 +40,7 @@ $ conda create -n cascading_ref_sphinx_5-1-0 python=3.11 nbsphinx numpydoc pando
 $ conda env export > cascading_ref_sphinx_5-1-0.yml
 
 # sphinx=5.0.2
-$  create -n cascading_ref_sphinx_5-0-2 python=3.11 nbsphinx numpydoc pandoc sphinxcontrib-bibtex sphinx_bootstrap_theme matplotlib sphinx=5.0.2
+$ create -n cascading_ref_sphinx_5-0-2 python=3.11 nbsphinx numpydoc pandoc sphinxcontrib-bibtex sphinx_bootstrap_theme matplotlib sphinx=5.0.2
 $ conda env export > cascading_ref_sphinx_5-0-2.yml
 
 # sphinx=5.0.0
