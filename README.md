@@ -4,7 +4,17 @@ This repo serves as a starting point to figure out what's causing the cascading 
 
 ## Problem Description
 
-* When a rendered reference entry from within `docs_*/_static/references.bib` is one line long or less, the subsequent entery is indented. This cascades until an entry is longer than one line and then the indentation resets.
+* (`sphinx>=5.1.0`) When a rendered reference entry from within `docs_*/_static/references.bib` is one line long or less, the subsequent entry is indented. This cascades until an entry is longer than one line and then the indentation resets.
+
+<p align="center">
+<img src="images/references_sphinx_5-1-0.png" width="800" />
+</p>
+
+* (`sphinx<5.1.0`) Sequential references are rendered properly no matter the length.
+
+<p align="center">
+<img src="images/references_sphinx_5-0-2.png" width="800" />
+</p>
 
 ## Repo Setup
 
