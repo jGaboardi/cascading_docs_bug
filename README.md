@@ -15,7 +15,7 @@ This repo serves as a starting point to figure out what's causing the cascading 
 
 ## Troubleshooting
 
-* There seems to have been a change between `sphinx==5.0.2` ([html](https://github.com/jGaboardi/cascading_refs_bug/docs_sphinx_5-0-2/_build/html/references.html), [image]()) and `sphinx==5.1.0` ([html](https://github.com/jGaboardi/cascading_refs_bug/docs_sphinx_5-1-0/_build/html/references.html), [image]()) that is causing the cascading reference entries, but I haven't been able isolate the reason.
+* There seems to have been a change between `sphinx==5.0.2` ([html](https://github.com/jGaboardi/cascading_refs_bug/blob/main/docs_sphinx_5-0-2/_build/html/references.html), [image](https://github.com/jGaboardi/cascading_refs_bug/blob/main/images/references_sphinx_5-0-2.png)) and `sphinx==5.1.0` ([html](https://github.com/jGaboardi/cascading_refs_bug/blob/main/docs_sphinx_5-1-0/_build/html/references.html), [image](https://github.com/jGaboardi/cascading_refs_bug/blob/main/images/references_sphinx_5-1-0.png)) that is causing the cascading reference entries, but I haven't been able isolate the reason.
 * I have implemented a workaround (see [`pysal/spaghetti#688`](https://github.com/pysal/spaghetti/pull/688)), but it is not a solution for the problem.
 
 ## Linked Issues and PRs
